@@ -1,4 +1,5 @@
 # Getting To Know Each Other Enhanced
+This is my getting to know each other enhanced project.
 
 ## Author
 Karl Abanis [email:karlmandyhabanis@lewisu.edu](mailto:karlmandyhabanis@lewisu.edu)

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<body>
     <img src="me.png" alt="Karl" style="width:400px;" class="center">
     <head>
         <title>Karl Abanis</title>
@@ -8,11 +9,16 @@
             body {background-color: #d8a291;}
         </style>
     </head>
-<body>
-    <h1 style="background-color:#864e43;">Karl Abanis
+    <h1 style="background-color:#864e43;" id="demo" onclick="myFunction()">Karl Abanis
         <button type="button" onclick="document.getElementById('demo1').style.fontSize='30px';
-            document.getElementById('demo2').style.fontSize='30px'">Text too small? Click here!</button>
+            document.getElementById('demo2').style.fontSize='30px'">Text too small? Click here!
+        </button>
     </h1>
+        <script>
+            function myFunction() {
+              document.getElementById("demo").style.color = "MediumSeaGreen";
+            }
+        </script>
         <p id="demo1"><a href="mailto:karlmandyhabanis@lewisu.edu">karlmandyhabanis@lewisu.edu</a></p>
         <p id="demo2" style="color:slateblue;">Discord Username: goldenkarell</p>
     <h1 style="background-color:#864e43;">Introductions
